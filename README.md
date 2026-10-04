@@ -13,7 +13,7 @@ This repository serves as a free preview of the robust scraping architecture inc
 
 ---
 
-### ⚙️ Quick Start (Local Setup)
+### ⚙️ Quick Start (Local Setup.)
 
 1. Clone the repository:
    ```bash
