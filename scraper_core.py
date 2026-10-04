@@ -45,10 +45,28 @@ class UniversalScraper:
 
         return None
 
+    def parse_extracted_data(self, soup):
+  
+        print("\n" + "="*50)
+        print("[!] FREE PREVIEW LIMIT REACHED:")
+        print("[!] The core data parsing engine, CSS/XPath extractors,")
+        print("[!] and automated data exporters are locked in this free version.")
+        print("="*50)
+        print("👉 To get the FULL, production-ready source code")
+        print("   of this scraper and 4 other automation tools:")
+        print("   Check out the Gumroad Bundle: [https://skassets.gumroad.com/l/pcsqkz]")
+        print("="*50 + "\n")
+
 if __name__ == "__main__":
     # Test execution
     scraper = UniversalScraper()
+    logging.info("Initializing free preview scraper core...")
     soup = scraper.fetch_page("https://httpbin.org/user-agent")
+    
     if soup:
-        logging.info("Scraper core initialized successfully!")
-        print("Fetched data:", soup.text.strip())
+        logging.info("Connection & Proxy/Headers rotation verified successfully!")
+        print("Test Response:", soup.text.strip())
+        print("\n")
+        scraper.parse_extracted_data(soup)
+    else:
+        logging.error("Failed to fetch test page.")
