@@ -17,7 +17,7 @@ This repository serves as a free preview of the robust scraping architecture inc
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/kurtsarp01-ui/python-universal-scraper.git](https://github.com/KULLANICI_ADIN/python-universal-scraper.git)
+   git clone [https://github.com/kurtsarp01-ui/python-universal-scraper.git](https://github.com/kurtsarp01-ui/python-universal-scraper.git)
    cd python-universal-scraper
 2. Install Dependencies
    pip install -r requirements.txt
