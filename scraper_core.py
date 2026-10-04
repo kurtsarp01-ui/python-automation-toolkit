@@ -52,7 +52,7 @@ class UniversalScraper:
         print("[!] The core data parsing engine, CSS/XPath extractors,")
         print("[!] and automated data exporters are locked in this free version.")
         print("="*50)
-        print("👉 To get the FULL, production-ready source code")
+        print("👉 To get the FULL, production-ready source code.")
         print("   of this scraper and 4 other automation tools:")
         print("   Check out the Gumroad Bundle: [https://skassets.gumroad.com/l/pcsqkz]")
         print("="*50 + "\n")
